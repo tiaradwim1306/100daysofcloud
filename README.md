@@ -22,7 +22,7 @@ I hope that by participating in this event I can learn more about cloud computin
 
 the goal is that I can be competent in cloud computing and get better in the future.
 
-- [✍️ Link to my Blogger](https://tiaradwim1306.blogspot.com/))
+- [✍️ Link to my Blogger](https://tiaradwim1306.blogspot.com/)
 - [✍️ Link to my LinkedIn](https://www.linkedin.com/in/tiara-dwi-maulita-sari-732801214/)
 
 ## Stepping out the door
