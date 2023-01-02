@@ -13,18 +13,18 @@ learn the meaning of cloud computing and the components that exist in cloud comp
 6. AWS Global Infrastructure 
 
 ## summary 
-1. Introduction to cloud computing (aws academy : Module 1 - Cloud Concepts Overview)
+### 1. Introduction to cloud computing (aws academy : Module 1 - Cloud Concepts Overview)
 
 Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources via the internet with pay-as-you-go pricing.
 
-2. traditional computing and cloud computing (aws academy : Module 1 - Cloud Concepts Overview)
+### 2. Traditional computing and Cloud computing (aws academy : Module 1 - Cloud Concepts Overview)
 
 - traditional computing
 In the traditional computing model, infrastructure is thought of as hardware. Hardware solutions are physical, which means they require space, staff, physical security, planning, and capital expenditure. 
 - cloud computing 
 By contrast, cloud computing enables you to think of your infrastructure as software. Software solutions are flexible. You can select the cloud services that best match your needs, provision and terminate those resources on-demand, and pay for what you use. 
 
-3.  Advantages of using cloud computing (aws academy : Module 1 - Cloud Concepts Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 22)
+### 3.  Advantages of using cloud computing (aws academy : Module 1 - Cloud Concepts Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 22)
 
 • Trade capital expense (CAPEX) for operational expense (OPEX)
 
@@ -40,7 +40,7 @@ By contrast, cloud computing enables you to think of your infrastructure as soft
 
 
 
-4. Type of cloud computing (aws academy : Module 1 - Cloud Concepts Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 25-26)
+### 4. Type of cloud computing (aws academy : Module 1 - Cloud Concepts Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 25-26)
 
 • Infrastructure as a Service (IaaS)
 
@@ -50,7 +50,7 @@ By contrast, cloud computing enables you to think of your infrastructure as soft
 
 
 
-5. Pricing of the Cloud (aws academy : Module 2 - Cloud Economics and Billing) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 27)
+### 5. Pricing of the Cloud (aws academy : Module 2 - Cloud Economics and Billing) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 27)
 
 Three fundamental drivers of cost with AWS :
 
@@ -60,7 +60,7 @@ Three fundamental drivers of cost with AWS :
 
 • Data Transfer -> Data transfer IN is free
 
-6. AWS Global Infrastructure (aws academy :  Module 3 - AWS Global Infrastructure Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 31-36)
+### 6. AWS Global Infrastructure (aws academy :  Module 3 - AWS Global Infrastructure Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 31-36)
 
 • AWS region 
 
