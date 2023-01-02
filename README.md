@@ -10,17 +10,14 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
-
 ## Tiara dwi maulita sari's Cloud Journey
 
-hi,i'm tiara dwi maulita sari.I'm from smkn 1 nglegok and i'm newbie in sysadmin and cloud computing
+Hi, I'm Tiara, a computer and network engineering student. I like to learn many things about IT, especially in the field of network and sysadmin.
+in this era of increasing technology, it makes me want to learn cloud computing, where many people are switching from traditional computing to cloud computing
 
-I hope that by participating in this event I can learn more about cloud computing.
+I hope that by participating in this event I can learn more about cloud computing. I know many things about cloud computing and can improve my skills in this field.
 
-the goal is that I can be competent in cloud computing and get better in the future.
+the goal is for me to be competent in cloud computing and be better in the future.
 
 - [✍️ Link to my Blogger](https://tiaradwim1306.blogspot.com/)
 - [✍️ Link to my LinkedIn](https://www.linkedin.com/in/tiara-dwi-maulita-sari-732801214/)
