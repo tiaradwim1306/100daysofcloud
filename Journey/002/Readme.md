@@ -1,12 +1,15 @@
 # Introduction to cloud computing : Course on Udemmy by Stepahane Mareek and aws academy Cloud Foundations [22444]
 
 ## Introduction
-learn the meaning of cloud computing and advantages of using cloud computing
+learn the meaning of cloud computing and the components that exist in cloud computing
 
 this journey learn about :
 1. Introduction to cloud computing
 2. traditional computing and cloud computing
 3. Advantages of using cloud computing
+4. Type of cloud computing
+5. Pricing of the Cloud
+6. AWS Global Infrastructure 
 
 ## Cloud Research 
 ### 1. Introduction to cloud computing (aws academy : Module 1 - Cloud Concepts Overview)
@@ -34,7 +37,37 @@ By contrast, cloud computing enables you to think of your infrastructure as soft
 
 • Go global in minutes
 
+### 4. Type of cloud computing (aws academy : Module 1 - Cloud Concepts Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 25-26)
+
+• Infrastructure as a Service (IaaS)
+
+• Platform as a Service (PaaS)
+
+• Software as a Service (SaaS)
+
+
+
+### 5. Pricing of the Cloud (aws academy : Module 2 - Cloud Economics and Billing) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 27)
+
+Three fundamental drivers of cost with AWS :
+
+• Compute -> Pay for compute time
+
+• Storage -> Pay for data stored in the Cloud
+
+• Data Transfer -> Data transfer IN is free
+
+### 6. AWS Global Infrastructure (aws academy :  Module 3 - AWS Global Infrastructure Overview) & (Course on Udemmy - AWS Certified Cloud Practitioner Slides : slide 31-36)
+
+• AWS region 
+
+• AWS Availability Zones
+
+• AWS Data Centers
+
+• AWS Edge Locations / Points of Presence
+
 
 ## Social Proof
 
-[Twitter](https://mobile.twitter.com/tiaradwim1306/status/1610850541533548555)
+[Twitter](https://mobile.twitter.com/tiaradwim1306/status/1610854532325703681)
