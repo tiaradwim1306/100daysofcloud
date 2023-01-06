@@ -1,52 +1,44 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Introduce to IAM : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
+### IAM - Identity and Access Management
+- IAM is Global Service 
+- root created by default and u shouldn't be used and shared 
+- IAM = Identity and Access Management, Global service
+- Users are people within your organization, and can be grouped
+- Groups only contain users, not other groups
+- Users don’t have to belong to a group, and user can belong to multiple groups
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+#### practice : create a user, create a group, enter the user into the group and test it.
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Permissions 
+- Users or Groups can be assigned JSON documents called policies
+- These policies define the permissions of the users
+- In AWS you apply the least privilege principle: don’t give more permissions than a user needs 
 
-### Step 1 — Summary of Step
+### IAM Policies 
+- Consists of version,id and statement
+- statement contain of Sid,effect,principal,action,resource,and condition 
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Password Policy 
+- strong password 
+- setup password policy : 
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+>  • Set a minimum password length
+>
+>  • Require specific character types
+>
+>  • Allow all IAM users to change their own passwords
+>
+>  • Require users to change their password after some time (password expiration)
+>
+>  • Prevent password re-use
+  
 
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[twitter](https://mobile.twitter.com/tiaradwim1306/status/1611377077252689920)
