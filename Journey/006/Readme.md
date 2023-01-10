@@ -1,52 +1,65 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# EC2 PART 2 : Course on Udemmy by Stepahane Mareek
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### EC2 Instance Types
+- General Purpose
+- Compute Optimized
+- Memory Optimized
+- Storage Optimized 
 
-## Try yourself
+### Security Groups
+Security groups control how traffic is allowed in or out of  EC2 Instances.
+- securiry groups like a firewall on EC2 instances 
+- The security group contains only allowed rules
+- Security group rules can be referenced by IP or security group
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Security groups manage things like :
+- Access to Ports  
+- Authorised IP ranges – IPv4 and IPv6 
+- Control of inbound network (from other to the instance) 
+- Control of outbound network (from the instance to other)
 
-### Step 1 — Summary of Step
+port and meaning :
+- 22 = SSH (Secure Shell) - log into a Linux instance
+- 21 = FTP (File Transfer Protocol) – upload files into a file share
+- 22 = SFTP (Secure File Transfer Protocol) – upload files using SSH
+- 80 = HTTP – access unsecured websites
+- 443 = HTTPS – access secured websites
+- 3389 = RDP (Remote Desktop Protocol) – log into a Windows instance
 
-![Screenshot](https://via.placeholder.com/500x300)
+EC2 on demand :
+- Pay for what you use:
+	- Linux or Windows - billing per second, after the first minute
+	- All other operating systems - billing per hour
+- Have the highest cost but no upfront payment
+- No long-term commitment
+- Recommended for short-term and un-interrupted workloads, where you can't predict how the application will behave
 
-### Step 1 — Summary of Step
+### Shared Responsibility Model for EC2
+- AWS = RESPONSIBILITY FOR THE SECURITY OF THE CLOUD
+	- Infrastructure (global network security)
+	- Isolation on physical hosts
+	- Replacing faulty hardware
+	- Compliance validation
+- CUSTOMER = RESPONSIBILITY FOR THE SECURITY IN THE CLOUD
+	- Security Groups rules
+	- Operating-system patches and updates
+	- Software and utilities installed on the EC2 instance
+	- IAM Roles assigned to EC2 & IAM user access management
+	- Data security on your instance
 
-![Screenshot](https://via.placeholder.com/500x300)
+## EC2 SUMMARY
+- EC2 consists of AMI (OS), size (CPU + RAM), storage, security groups and user data
+- Security group such as firewall on EC2 instances
+- User Data is the script that is launched on the first start of the instance
+- SSH is a one way remote instance tool with CLI
+ex : windows - windows powershell
+- Purchase Options : On Demand, Spot, Ordered (Standard + Conversion + Scheduled), Dedicated Host, Dedicated Instance
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://mobile.twitter.com/tiaradwim1306/status/1612752359867944961)
