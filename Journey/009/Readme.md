@@ -1,52 +1,76 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# EC2 Instance Storage (EC2 Image Builder,EC2 Instance Store,EFS) & ELB and ASG  : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
+### EC2 Image Builder 
+the function is to automate the creation, maintain, validate and test EC2 AMIs on a scheduled basis (weekly, when packages update, etc...)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### EC2 Instance Store
+EBS has limited performance, if you need higher performance hardware disk use EC2 Instance Store with better I/O performance
 
-## Try yourself
+### ## EFS (Elastic File System)
+NFS can be installed on around 100s of EC2 and works with EC2 Linux instances in multiple Availability Zones.
+Highly available, scalable, expensive (3x gp2), pay per use, no capacity planning
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Shared Responsibility Model for EC2 Storage
 
-### Step 1 — Summary of Step
+- AWS = RESPONSIBILITY FOR THE SECURITY OF THE CLOUD
+	- Infrastructure
+	- Replication for data for EBS volumes & EFS drives
+	- Replacing faulty hardware
+	- Ensuring their employees cannot access your data
+- CUSTOMER = RESPONSIBILITY FOR THE SECURITY IN THE CLOUD
+	- Setting up backup / snapshot procedures
+	- Setting up data encryption
+	- Responsibility of any data on the drives
+	- Understanding the risk of using EC2 Instance Store
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Amazon FSx
 
-### Step 1 — Summary of Step
+- Launch 3rd party high-performance file systems on AWS
+- Fully managed service
+- Types : FSx for Lustre, FSx for Windows File Server, FSx for NetApp ONTAP
 
-![Screenshot](https://via.placeholder.com/500x300)
+### ## EC2 Instance Storage - Summary
+- EBS Volumes :
+	- network drives attached to one EC2 instance at a time 
+	- Mapped to an Availability Zones 
+	- Can use EBS Snapshots for backups / transferring EBS volumes across AZ
+- AMI: create ready-to-use EC2 instances with our customizations
+- EC2 Image Builder: automatically build, test and distribute AMIs 
+- EC2 Instance Store:
+	- High performance hardware disk attached to our EC2 instance 
+	- Lost if our instance is stopped / terminated
+- EFS: network file system, can be attached to 100s of instances in a region 
+- EFS-IA: cost-optimized storage class for infrequent accessed files 
+- FSx for Windows: Network File System for Windows servers 
+- FSx for Lustre: High Performance Computing Linux file system
 
-### Step 3 — Summary of Step
+## ELB (Elastic Load Balancing) & ASG (Auto Scalling Groups) 
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Scalability & high availibility 
+there are 2 kinds of scalability :
+- vertical scalability
 
-## ☁️ Cloud Outcome
+Vertical scalability means increase in size and has limits (hardware limit), example from t2.micro to t2.large.
+Very common for non-distributed systems, such as databases.
+- horizontal scalability 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Horizontal scalability means increasing the number of instances/systems and implies a distributed system.
+very common for web applications/modern applications.
+This scalability is very easy to do thanks to the cloud offerings like Amazon EC2
+- High Availability
 
-## Next Steps
+High availability usually goes hand in hand with horizontal scaling, running instances in at least 2 AZ and goal is surviving data center loss (disaster)
 
-✍️ Describe what you think you think you want to do next.
+### example :
+- vertical scalability : t2.nano to l2tbl.metal
+- horizontal scalability : auto scaling group,load balancer
+- High Availability : auto scaling group multi AZ
+
+### Load Balancing 
+Load balancers are servers that forward internet traffic to multiple servers (EC2 Instances) downstream.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1614092741566423040)
