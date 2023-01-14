@@ -31,8 +31,8 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 5 > [AWS Budget setup and Introduce to EC2](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [EC2 PART 2](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Meet 2 | User & Group management, File Permissions ](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [ ] ☁️ 8 > [EBS & AMI](Journey/008/Readme.md)
+- [ ] ☁️ 9 > [EC2 Instance Storage & ELB and ASG ](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
