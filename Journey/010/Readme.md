@@ -41,7 +41,7 @@ Amazon S3 is ”infinitely scaling” storage,many websites and service use S3 a
 
 ### S3 Static Website Hosting 
 - S3 can host static websites and have them accessible on the Internet
--  If you get a 403 Forbidden error, make sure the bucket policy allows public reads
+- If you get a 403 Forbidden error, make sure the bucket policy allows public reads
 
 ### Amazon S3 -Versioning
 - You can version your files in Amazon S3 and it's enabled at the bucket level
@@ -50,13 +50,13 @@ Amazon S3 is ”infinitely scaling” storage,many websites and service use S3 a
 
 ### Amazon S3 – Replication (CRR & SRR)
 - Must enable Versioning in source and destination buckets
-	• Cross-Region Replication (CRR)
-	• Same-Region Replication (SRR)
+	- Cross-Region Replication (CRR)
+	- Same-Region Replication (SRR)
 - Buckets can be in different AWS accounts
 - Must give proper IAM permissions to S3
 - use cases :
-	• CRR – compliance, lower latency access, replication across accounts
-	• SRR – log aggregation, live replication between production and test accounts
+	- CRR – compliance, lower latency access, replication across accounts
+	- SRR – log aggregation, live replication between production and test accounts
 
 
 ### S3 Storage Classes 
@@ -74,8 +74,7 @@ Amazon S3 is ”infinitely scaling” storage,many websites and service use S3 a
 - Client-Side Encryption
 
 ### AWS Snow Family
-- Highly-secure, portable devices to collect and process data at the edge,
-and migrate data into and out of AWS
+- Highly-secure, portable devices to collect and process data at the edge, and migrate data into and out of AWS
 - Data migration : Snowcone,Snowball Edge,Snowmobile
 - Edge computing : Snowcone,Snowball Edge
 
@@ -90,12 +89,11 @@ and migrate data into and out of AWS
 - Types of Storage Gateways: File Gateways,Gateway Volumes,Tape Gateways
 
 ## practice :
-- create basket and try to upload file or create folder
+- create bucket and try to upload file or create folder
 - create a bucket policy with the aws policy generator and make sure our files are accessible on the internet
 - create static website hosting and make sure we can access our website
-- create a bucket version, and we can see the changes when we upload the same file
-- create a replication rule from the bucket that we have created and make sure every time we upload a file in the original bucket, the replica will immediately copy it
-
+- enable bucket versioning, and we can see the changes when we upload the same file and make sure we can also go back to the previous version quickly
+- create a replication rule from the bucket that we have created and make sure every time we upload a file in the original bucket, the replica bucket will copy it immediately
 
 ## Social Proof
 
