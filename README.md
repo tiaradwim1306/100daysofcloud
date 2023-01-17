@@ -37,8 +37,8 @@ the goal is for me to be competent in cloud computing and be better in the futur
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
+- [ ] ☁️ 11 > [Database PART 1](Journey/011/Readme.md)
+- [ ] ☁️ 12 > [Database PART 2](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
