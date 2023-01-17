@@ -1,5 +1,5 @@
 
-# Database : Course on Udemmy by Stepahane Mareek
+# Database Part 1: Course on Udemmy by Stepahane Mareek
 
 ## Introduction
 Databases are very important in cloud computing, in this journey we will learn these things :
