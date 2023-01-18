@@ -1,52 +1,99 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Other Compute : Course on Udemmy by Stepahane Mareek
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Docker 
+Docker is a software development platform for deploying multiple applications packaged in containers that can run on any OS.
+ex : EC2 instance which runs docker javascript, docker Mysql, etc.
 
-## Try yourself
+### Docker versus Virtual Machines Architecture
+![image](https://user-images.githubusercontent.com/120786669/213123569-89ec1850-8941-4604-b204-79cf59736666.png)
+ 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### ECS (Elastic Container Service)
+- Launch Docker containers on AWS,must provision & maintain the infrastructure (the EC2 instances)
+- AWS takes care of starting / stopping containers and has integrations with the Application Load Balance
 
-### Step 1 — Summary of Step
+### Fargate 
+Launch Docker containers on AWS, no infrastructure required so it's simpler, serverless and runs AWS based on CPU/RAM required.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### ECR (Elastic Container Registry)
+ ECR is a private Docker Registry on AWS, here you can store docker images and run them on ECS or Fargate
 
-### Step 1 — Summary of Step
+### Serverless
+The new thing where developers don't need to manage servers anymore, initially serverless is FaaS (Function as a Service) pioneered by AWS Lambda.
+ex: S3,DynamoDB,Lambda,Fargate
 
-![Screenshot](https://via.placeholder.com/500x300)
+### AWS Lambda 
+Lambda is Virtual functions so no servers to manage, and limited by time,on-demand runs and scaling is automated
 
-### Step 3 — Summary of Step
+Benefits :
+- Easy Pricing
+- Integrated with the whole AWS suite of services
+- used only when needed
+- Integrated with many programming languages
+- Easy monitoring via AWS CloudWatch
+- Easily get more resources per function (up to 10GB RAM!)
+- Increasing RAM also increases CPU and network
 
-![Screenshot](https://via.placeholder.com/500x300)
+note : Lambda language support is Node.js(JavaScript),Python,Java,C#,Golang,and Ruby 
 
-## ☁️ Cloud Outcome
+practice : create AWS lambda function for stop EC2 instances 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Amazon API Gateway
+Fully managed service for developers to easily build, publish, maintain, monitor APIs and be serverless and scalable
 
-## Next Steps
+### Batch 
+- Fully managed batch processing at any scale
+- Efficiently run 100,000s of computing batch jobs on AWS
+- A “batch” job is a job with a start and an end (opposed to continuous)
+- Batch will dynamically launch EC2 instances or Spot Instances
+- AWS Batch provisions the right amount of compute / memory
+- You submit or schedule batch jobs and AWS Batch does the rest!
+- Batch jobs are defined as Docker images and run on ECS
+- Helpful for cost optimizations and focusing less on the infrastructure
 
-✍️ Describe what you think you think you want to do next.
+Batch vs Lambda
+- Lambda: 
+	- Time limit 
+	- Limited runtimes 
+	- Limited temporary disk space 
+	- Serverless 
+
+- Batch: 
+	- No time limit 
+	- Any runtime as long as it’s packaged as a Docker image 
+	- Rely on EBS / instance store for disk space 
+	- Relies on EC2 (can be managed by AWS)
+
+### Amazon Lightsail
+Amazon lightsail is a standalone service and great for people with little cloud experience.lightsail is AWS simplified
+- can be used for virtual servers, storage, databases, and networks at low & predictable prices
+- simpler than the services studied before like EC2, RDS, etc.
+- Can manage notifications and resource monitoring of your Lightsail
+- Use case:
+	- Simple web app (has templates for LAMP, Nginx, MEAN, Node.js…)
+	- Website (templates for WordPress, Magento, Plesk, Joomla)
+	- Dev/Test Environment
+- Has high availability but no auto-scaling, limited AWS integration
+
+### summary 
+- Docker: container technology to run applications
+- ECS: run Docker containers on EC2 instances
+- Fargates: Run Docker containers without provisioning the infrastructure and serverless offering (no EC2 instances)
+- ECR: Private Docker Images Repository
+- Batch: run batch jobs on AWS across managed EC2 instances
+- Lightsail: predictable & low pricing for simple applications & DB stacks
+- Lambda is Serverless, Function as a Service, seamless scaling, reactive
+- Lambda Language Support: many programming languages except (arbitrary) Docker
+- Lambda Invocation time: up to 15 minutes
+- Lambda Use cases:
+	- Create Thumbnails for images uploaded onto S3
+	- Run a Serverless cron job
+- API Gateway: expose Lambda functions as HTTP API
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1615636316091449346)
