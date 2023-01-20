@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Deployment & Managing Infrastructure Part 1 : Course on Udemmy by Stepahane Mareek
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
+### CloudFormation 
+CloudFormation is a service that is used to manage existing resources as desired, for example you want:
+- I want a security group
+- I want two EC2 instances using this security group
+- I want an S3 bucket
+- I want a load balancer (ELB) in front of these machines
+Then CloudFormation builds them for you, in the right order, with the exact configurations you specify
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Benefits of AWS CloudFormation 
+- Infrastructure as code
+- cost 
+- productivity
+- take advantage of templates and documentation as well
+- support (almost) all AWS resources 
 
-## Try yourself
+### CDK (Cloud Development Kit)
+This service is useful if you want to define your infrastructure with programming languages, for example JavaScript, Python, Java, etc.
+ex : CDK - CDK CLI - CloudFormation template - CloudFormation
+from the CDK we use the CDK CLI to change other programming languages into CloudFormation templates which will be used later in CloudFormation
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Beanstalk
+Elastic Beanstalk is a developer-centric deployment view the application on AWS.Beanstalk is free but you pay for the underlying instance
+Beanstalk is PaaS (Platform as a Service)
 
-### Step 1 — Summary of Step
+- Elastic Beanstalk manages services like instance configuration, load balancing and auto scaling, etc.
+- The developer is only responsible for the application code used
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1616286971986612225)
