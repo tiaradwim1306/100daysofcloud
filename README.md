@@ -42,9 +42,9 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 13 > [Other Compute](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [Deployment & Managing Infrastructure Part 1](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Deployment & Managing Infrastructure Part 2](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
+- [ ] ☁️ 16 > [Global Infrastructure](Journey/016/Readme.md)
+- [ ] ☁️ 17 > [Cloud Integration](Journey/017/Readme.md)
+- [ ] ☁️ 18 > [Cloud Monitoring](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
