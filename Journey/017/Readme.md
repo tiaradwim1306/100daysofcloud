@@ -1,52 +1,75 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Cloud Integration 
 
-## Introduction
+## Introduction 
+When we start deploying multiple applications, they inevitably need to communicate with each other
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+There are two patterns of application communication
+- Synchronous communications (application to application)
+- Asynchronous / Event based (application to queue to application)
 
-## Prerequisite
+If you are used to encoding 10 videos then suddenly need 1000 then Synchronous between apps can be problematic due to sudden spikes in traffic
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+In this case, it's best to separate your applications:
+- use SQS: queuing model
+- using SNS: pub/sub mode
+- using Kinesis: real-time data streaming models
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### SQS (Simple Queue Service)
+SQS Queue is a liaison between producers and consumers which does not only consist of 1 producer/consumer but can be more.
 
-## Try yourself
+Standart Queue :
+- Fully managed service (serverless), use to decouple applications
+- No limit to how many messages can be in the queue and messages are deleted after they’re read by consumers
+- low latency
+- Consumers share the work to read messages & scale horizontally
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+### Amazon Kinesis - real time big data streaming
+Managed service to collect, process, and analyze real-time streaming
+data at any scale
 
-![Screenshot](https://via.placeholder.com/500x300)
+Additional info :
+- Kinesis Data Streams: low latency streaming to ingest data at scale from hundreds of thousands of sources
+- Kinesis Data Firehose: load streams into S3, Redshift, ElasticSearch, etc…
+- Kinesis Data Analytics: perform real-time analytics on streams using SQL
+- Kinesis Video Streams: monitor real-time video streams for analytics or ML
 
-### Step 1 — Summary of Step
+### Amazon SNS
+if we want to send one message to many receivers it will be difficult if we send one by one for that we can use Amazon SNS
 
-![Screenshot](https://via.placeholder.com/500x300)
+- The “event publishers” only sends message to one SNS topic
+- As many “event subscribers” as we want to listen to the SNS topic notifications
+- Each subscriber to the topic will get all the messages
+- Up to 12,500,000 subscriptions per topic, 100,000 topics limit
 
-### Step 3 — Summary of Step
+### Amazon MQ
+Amazon MQ is a managed message broker service for RabbitMQ nad ActiveMQ
+- Amazon MQ doesn’t “scale” as much as SQS / SNS
+- Amazon MQ runs on servers, can run in Multi-AZ with failover
+- Amazon MQ has both queue feature (~SQS) and topic features (~SNS)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Summary 
+SQS:
+- Queue service in AWS
+- Multiple Producers, messages are kept up to 14 days
+- Multiple Consumers share the read and delete messages when done
+- Used to decouple applications in AWS
 
-## ☁️ Cloud Outcome
+SNS:
+- Notification service in AWS
+- Subscribers: Email, Lambda, SQS, HTTP, Mobile…
+- Multiple Subscribers, send all messages to all of them
+- No message retention
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Kinesis: real-time data streaming, persistence and analysis
 
-## Next Steps
+Amazon MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP.. protocols)
 
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1618427192987508738)
