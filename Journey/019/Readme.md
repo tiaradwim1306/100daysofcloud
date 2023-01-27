@@ -1,52 +1,92 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# VPC : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### VPC 
+VPC is Virtual Private Cloud,private network to deploy your resources (regional resource)
 
-## Try yourself
+Subnets allow you to partition your network inside your VPC (Availability Zone resource).
+there are 2 subnets that you should know :
+- Public subnet is a subnet that can be accessed from the internet
+- Private subnets are subnets that are not accessible from the internet
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+To define access to the internet and between subnets, we use Route Tables
 
-### Step 1 — Summary of Step
+### Internet Gateway & NAT Gateways
+- Internet Gateways helps our VPC instances connect with the internet
+- Public Subnets have a route to the internet gateway.
+- NAT Gateways (AWS-managed) & NAT Instances (self-managed) allow your instances in your Private Subnet to access the internet while remaining private
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Network ACL & Security Groups
+- NACL (Network ACL)
+	- A firewall which controls traffic from and to subnets
+	- Can have ALLOW and DENY rules
+	- Are attached at the Subnet level
+	- Rules only include IP addresses
+- Security Groups
+	- A firewall that controls traffic to and from an ENI / an EC2 Instance
+	- Can have only ALLOW rules
+	- Rules include IP addresses and other security groups
 
-### Step 1 — Summary of Step
+practice : 
+- create VPC 
+- create subnet
+- create Security Groups
 
-![Screenshot](https://via.placeholder.com/500x300)
+### VPC Flow Logs
+- Capture information about IP traffic going into your interfaces:
+	- VPC Flow Logs
+	- Subnet Flow Logs
+	- Elastic Network Interface Flow Logs
+- Helps to monitor & troubleshoot connectivity issues. Example:
+	- Subnets to internet
+	- Subnets to subnets
+	- Internet to subnets
+- Captures network information from AWS managed interfaces too: Elastic Load Balancers, ElastiCache, RDS, Aurora, etc…
+- VPC Flow logs data can go to S3 / CloudWatch Logs
 
-### Step 3 — Summary of Step
+### VPC Peering 
+VPC Peering is a way for two VPCs to connect privately using the AWS network.
+- Must not have overlapping CIDR (IP address ranges).
+- Peering VPC connections are not transitive (must be established for each VPC that needs to communicate with each other)
 
-![Screenshot](https://via.placeholder.com/500x300)
+practice :
+- menghubungkan 2 VPC agar bisa saling berkomunikasi 
 
-## ☁️ Cloud Outcome
+### VPC Endpoint
+- Endpoints allow you to connect to AWS Services using a private network instead of the public wwwnetwork
+- This gives you enhanced security and lower latency to access AWS services
+- VPC Endpoint Gateway: S3 & DynamoDB
+- VPC Endpoint Interface: the rest
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### AWS PrivateLink 
+the most secure and scalable way to expose services to multiple VPCs even up to 1000s of VPCs without the need for peering, route tables or anything else.
+By requiring a load balancer for VPC services and ENI for VPC customers
 
-## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+### Site to Site VPN & Direct Connect
+- Site to Site VPN
+	- Connect an on-premises VPN to AWS
+	- The connection is automatic encrypted
+	- Goes over the public internet
+- Direct Connect (DX)
+	- Establish a physical connection between on-premises and AWS
+	- The connection is private, secure and fast
+	- Goes over a private network
+	- Takes at least a month to establish
+
+
+### AWS Client VPN
+- Connect from your computer using OpenVPN to your private network in AWS and on-premises
+- Allow you to connect to your EC2 instances over a private IP (just as if you were in the private VPC network)
+- Goes over public Internet
+
+### Transit Gateway 
+- For having transitive peering between thousands of VPC and on-premises, hub-and-spoke (star) connection
+- One single Gateway to provide this functionality
+- Works with Direct Connect Gateway, VPN connections
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1618910462984458240)
