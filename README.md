@@ -45,7 +45,7 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 16 > [Global Infrastructure](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [Cloud Integration](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [Cloud Monitoring](Journey/018/Readme.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
+- [ ] ☁️ 19 > [VPC ](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
