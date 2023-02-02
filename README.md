@@ -46,13 +46,13 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 17 > [Cloud Integration](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [Cloud Monitoring](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [VPC ](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [ ] ☁️ 20 > [Security & Compliance PART 1](Journey/020/Readme.md)
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
+- [ ] ☁️ 21 > [Meet 3 | Hostname,Hosts,and Network management ](Journey/021/Readme.md)
+- [ ] ☁️ 22 > [Security & Compliance PART 2](Journey/022/Readme.md)
+- [ ] ☁️ 23 > [Security & Compliance PART 3](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
