@@ -1,52 +1,66 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Machine Learning Part 1 : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+### Amazon Rekognition
+- Find objects, people, text, scenes in images and videos using ML
+- Facial analysis and facial search to do user verification, people counting
+- Create a database of “familiar faces” or compare against celebrities
+- Use cases:
+	- Labeling
+	- Content Moderation
+	- Text Detection
+	- Face Detection and Analysis (gender, age range, emotions…)
+	- Face Search and Verification
+	- Celebrity Recognition
+	- Pathing (ex: for sports game analysis)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Amazon Rekognition website on [link](https://aws.amazon.com/rekognition/)
 
-### Step 1 — Summary of Step
+### Amazon Transcribe
+- Automatically convert speech to text
+- Uses a deep learning process called automatic speech recognition (ASR) to convert speech to text quickly and accurately
+- Automatically remove Personally Identifiable Information (PII) using Redaction
+- Supports Automatic Language Identification for multi-lingual audio
+- Use cases:
+	- transcribe customer service calls
+	- automate closed captioning and subtitling
+	- generate metadata for media assets to create a fully searchable archive
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Amazon Polly 
+- Turn text into lifelike speech using deep learning 
+- Allowing you to create applications that talk
 
-### Step 1 — Summary of Step
+### Amazon Translate
+- Natural and accurate language translation
+- Amazon Translate allows you to localize content - such as websites and applications - for international users, and to easily translate large volumes of text efficiently.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Amazon Lex & Connect 
+- Amazon Lex: (same technology that powers Alexa)
+	- Automatic Speech Recognition (ASR) to convert speech to text
+	- Natural Language Understanding to recognize the intent of text, callers
+	- Helps build chatbots, call center bots
+- Amazon Connect:
+	- Receive calls, create contact flows, cloud-based virtual contact center
+	- Can integrate with other CRM systems or AWS
+	- No upfront payments, 80% cheaper than traditional contact center solutions
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Amazon Comprehend
+Service for Natural Language Processing  (NLP),Fully managed and serverless service.Uses machine learning to find insights and relationships in text
+- Language of the text
+- Extracts key phrases, places, people, brands, or events
+- Understands how positive or negative the text is
+- Analyzes text using tokenization and parts of speech
+- Automatically organizes a collection of text files by topic
 
-## ☁️ Cloud Outcome
+Sample use cases:
+- analyze customer interactions (emails) to find what leads to a positive or negative experience
+- Create and groups articles by topics that Comprehend will uncover
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1621720221542391808)
