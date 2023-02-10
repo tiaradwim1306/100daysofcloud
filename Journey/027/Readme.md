@@ -1,52 +1,79 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Pricing Models in AWS : Course on Udemmy by Stepahane Mareek
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
+### Pricing Models in AWS
+AWS has 4 pricing models :
+- pay as you go 
+- save when you reserve
+- pay less by using more
+- pay less as AWS grows 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Pricing for service 
 
-## Try yourself
+#### Compute Pricing 
+EC2 :
+- Only charged for what you use 
+- Number of instances 
+- Instance configuration (physical capacity,region,OS and software,instance type and instance size)
+- ELB running time and amount of data processed 
+- Detailed monitoring
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Lambda : 
+- Pay per call 
+- Pay per duration 
 
-### Step 1 — Summary of Step
+ECS : 
+- EC2 Launch Type Model: No additional fees, you pay for AWS resources stored and created in your application
 
-![Screenshot](https://via.placeholder.com/500x300)
+Fargate :
+- Fargate Launch Type Model: Pay for vCPU and memory resources allocated to your applications in your containers
 
-### Step 1 — Summary of Step
+#### Storage Pricing 
+S3 :
+- Storage class: S3 Standard, S3 Infrequent Access, S3 One-Zone IA, S3 Intelligent Tiering, S3 Glacier and S3 Glacier Deep Archive
+- Number and size of objects: Price can be tiered (based on volume)
+- Number and type of requests
+- Data transfer OUT of the S3 region
+- S3 Transfer Acceleration
+- Lifecycle transitions
+- Similar service: EFS (pay per use, has infrequent access & lifecycle rules)
 
-![Screenshot](https://via.placeholder.com/500x300)
+EBS :
+- Volume type (based on performance) 
+- Storage volume in GB per month provisionned 
+- IOPS: 
+	- General Purpose SSD: Included 
+	- Provisioned IOPS SSD: Provisionned amount in IOPS 
+	- Magnetic: Number of requests 
+- Snapshots: 
+	- Added data cost per GB per month 
+- Data transfer: 
+	- Outbound data transfer are tiered for volume discounts 
+	- Inbound is free
 
-### Step 3 — Summary of Step
+RDS :
+- Per hour billing
+- Database characteristics : Engine, Size, Memory class
+- Purchase type: On-demand, Reserved instances (1 or 3 years) with required up-front
+- Backup Storage: There is no additional charge for backup storage up to 100% of your total database storage for a region. 
+- Additional storage (per GB per month) 
+- Number of input and output requests per month 
+- Deployment type (storage and I/O are variable) : Single AZ, Multiple AZs 
+- Data transfer : 
+	- Outbound data transfer are tiered for volume discounts 
+	- Inbound is free
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Content Delivery 
+CloudFront : 
+- Pricing is different across different geographic regions 
+- Aggregated for each edge location, then applied to your bill 
+- Data Transfer Out (volume discount) 
+- Number of HTTP/HTTPS requests
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1624060863085961218)
