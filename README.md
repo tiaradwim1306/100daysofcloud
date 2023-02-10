@@ -55,9 +55,9 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 23 > [Security & Compliance PART 3](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [Machine Learning PART 1](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [Machine Learning PART 2](Journey/025/Readme.md)
-- [ ] ☁️ 26 > [](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
+- [ ] ☁️ 26 > [AWS Organizations and Control Tower](Journey/026/Readme.md)
+- [ ] ☁️ 27 > [Pricing Models in AWS](Journey/027/Readme.md)
+- [ ] ☁️ 28 > [Savings Plan and Compute Optimizer](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
