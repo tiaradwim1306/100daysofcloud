@@ -1,52 +1,37 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Billing and Costing Tools & AWS Trusted : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Billing and Costing Tools 
 
-## Try yourself
+Estimating costs in the cloud: Pricing Calculator 
+- Available at [link](https://calculator.aws/)
+- Estimate the cost for your solution architecture
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+prcatice :  create estimate for 2   EC2 instances 
 
-### Step 1 — Summary of Step
+#### Tracking costs in the cloud : 
+- Billing Dashboard : dashboard to see expenses for each service 
+- Cost Allocation : Tags,Use cost allocation tags to track your AWS costs on a detailed level
+- Cost and Usage Reports : The AWS Cost & Usage Report contains the most comprehensive set of AWS cost and usage data available, including additional metadata about AWS services, pricing, and reservations (e.g., Amazon EC2 Reserved Instances (RIs)).
+- Cost Explorer : Visualize, understand, and manage your AWS costs and usage over time
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Monitoring against costs plans : 
+- Billing Alarms : Billing data metrics only available for us-east-1 and use for overall worldwide AWS costs
+- Budgets : Create budget and send alarms when costs exceeds the budget
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### AWS Trusted 
+high level AWS account assessment,analyze your AWS accounts and provides recommendation 
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+give recommendation on 5 categories :
+- Cost optimization 
+- Performance 
+- Security 
+- Fault tolerance 
+- Service limits
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1626364828892958720)
