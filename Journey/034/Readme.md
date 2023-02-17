@@ -1,52 +1,44 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# AWS Directory Services & AWS IAM Identity Center : Course on Udemmy by Stepahane Mareek
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
+### What is Microsoft Active Directory (AD)?
+- Found on any Windows Server with AD Domain Services
+- Database of objects: User Accounts, Computers, Printers, File Shares, Security Groups
+- Centralized security management, create account, assign permissions
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### AWS Directory Services
+- AWS Managed Microsoft AD
+	- Create your own AD in AWS, manage users locally, supports MFA
+	- Establish “trust” connections with your on- premise AD
+- AD Connector
+	- Directory Gateway (proxy) to redirect to on- premise AD, supports MFA
+	- Users are managed on the on-premise AD
+- Simple AD
+	- AD-compatible managed directory on AWS
+	- Cannot be joined with on-premise AD
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### AWS IAM Identity Center (successor to AWS Single Sign-On)
+One login (single sign-on) for all your :
+- AWS accounts in AWS Organizations
+- Business cloud applications (e.g., Salesforce, Box, Microsoft 365, …)- SAML2.0-enabled applications
+- EC2 Windows Instances
 
-### Step 1 — Summary of Step
+Identity providers :
+- Built-in identity store in IAM Identity Center
+-  3rd party: Active Directory (AD), OneLogin, Okta…
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Summary
+- IAM : Identity and Access Management inside your AWS account and for users that you trust and belong to your company
+- Organizations : manage multiple AWS accounts
+- Security Token Service (STS) : temporary, limited-privileges credentials to access AWS resources
+- Cognito : create a database of users for your mobile & web applications
+- Directory Services : integrate Microsoft Active Directory in AWS
+- IAM Identity Center : one login for multiple AWS accounts & applications
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1626379542792372224)
