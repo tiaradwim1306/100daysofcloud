@@ -1,52 +1,40 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Amazon WorkSpaces, AppStream 2.0, Sumerian : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
+### Amazon WorkSpaces
+- Managed Desktop as a Service (DaaS) solution to easily provision Windows or Linux desktops
+- Great to eliminate management of on-premise VDI (Virtual Desktop Infrastructure)
+- Fast and quickly scalable to thousands of users
+- Secured data – integrates with KMS
+- Pay-as-you-go service with monthly or hourly rates
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Amazon AppStream 2.0
+- Desktop Application Streaming Service
+- Deliver to any computer, without acquiring, provisioning infrastructure
+- The application is delivered from within a web browser
 
-## Try yourself
+ex : you want to have the Blender application to create the 3D models directly from within a web browser, you can with Amazon AppStream.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### WorkSpaces VS Amazon AppStream 2.0
+#### Workspaces
+- Fully managed VDI and desktop available
+- The users connect to the VDI and open native or WAM applications
+- Workspaces are on-demand or always on
 
-### Step 1 — Summary of Step
+#### AppStream 2.0
+- Stream a desktop application to web browsers (no need to connect to a VDI)
+- Works with any device (that has a web browser)
+- Allow to configure an instance type per application type (CPU, RAM, GPU)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Amazon Sumerian
+- Create and run virtual reality (VR), augmented reality (AR), and 3D applications
+- Can be used to quickly create 3D models with animations
+- Ready-to-use templates and assets - no programming or 3D expertise required
+- Accessible via a web-browser URLs or on popular hardware for AR/VR
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+example amazon sumerian : [link](https://docs.aws.amazon.com/sumerian/latest/userguide/gettingstartedshowcase.html)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1626937601793073152)
