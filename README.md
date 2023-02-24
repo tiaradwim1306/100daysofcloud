@@ -67,7 +67,7 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 32 > [AWS Support Plans](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [AWS STS and Amazon Cognito](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [AWS Directory Services & AWS IAM Identity Center](Journey/034/Readme.md)
-- [ ] ☁️ 35 > [](Journey/035/Readme.md)
+- [ ] ☁️ 35 > [Amazon WorkSpaces, AppStream 2.0, Sumerian ](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [](Journey/038/Readme.md)
