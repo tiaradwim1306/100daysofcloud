@@ -1,5 +1,5 @@
 
-# meet 4 | IAM hands on
+# meet 4 | IAM hands on (mentor : yosep kusuma wibawa)
 
 ## Introduction
 root user is a very dangerous user if used frequently, it would be better if we use a user with certain access rights.
