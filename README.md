@@ -68,11 +68,11 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 33 > [AWS STS and Amazon Cognito](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [AWS Directory Services & AWS IAM Identity Center](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [Amazon WorkSpaces, AppStream 2.0, Sumerian ](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
-- [ ] ☁️ 37 > [](Journey/037/Readme.md)
-- [ ] ☁️ 38 > [](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 36 > [AWS IoT, Elastic Transcoder, AppSync, Amplify, AWS Device Farm](Journey/036/Readme.md)
+- [ ] ☁️ 37 > [AWS Backup,DRS,AWS DataSync,MGN](Journey/037/Readme.md)
+- [ ] ☁️ 38 > [FIS, AWS Step Functions, Ground Station, Pinpoint](Journey/038/Readme.md)
+- [ ] ☁️ 39 > [Well Architected Framework & AWS Cloud Best Practices](Journey/039/Readme.md)
+- [ ] ☁️ 40 > [meet 4 | IAM ](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
