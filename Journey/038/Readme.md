@@ -1,52 +1,44 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# FIS, AWS Step Functions, Ground Station, Pinpoint : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
+### AWS Fault Injection Simulator (FIS)
+- A fully managed service for running fault injection experiments on AWS workloads
+- Based on Chaos Engineering – stressing an application by creating disruptive events (e.g., sudden increase in CPU or memory), observing how the system responds, and implementing improvements
+- Helps you uncover hidden bugs and performance bottlenecks
+- Supports the following AWS services: EC2, ECS, EKS, RDS…
+- Use pre-built templates that generate the desired disruptions
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### AWS Step Functions 
+- Build serverless visual workflow to orchestrate your Lambda functions
+- Features : sequence, parallel, conditions, timeouts, error handling, …
+- Can integrate with EC2, ECS, On-premises servers, API Gateway, SQS queues, etc.
+- Possibility of implementing human approval feature
 
-## Try yourself
+Use cases: order fulfillment, data processing, web applications, any workflow
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### AWS Ground Station
+- Fully managed service that lets you control sattelite communications, process data, and scale your satellite operations
+- Provides a global network of satellite ground stations near AWS regions
+- Allows you to download satellite data to your AWS VPC within seconds
+- Send satellite data to S3 or EC2 instance
 
-### Step 1 — Summary of Step
+Use cases: weather forecasting, surface imaging, communications, video broadcasts
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Amazon Pinpoint
+- Scalable 2-way (outbound/inbound) marketing communications service
+- Supports email, SMS, push, voice, and in-app messaging
+- Ability to segment and personalize messages with the right content to customers
+- Possibility to receive replies
+- Scales to billions of messages per day
 
-### Step 1 — Summary of Step
+Use cases: run campaigns by sending marketing, bulk, transactional SMS messages
 
-![Screenshot](https://via.placeholder.com/500x300)
+Versus Amazon SNS or Amazon SES :
+- In SNS & SES you managed each message's audience, content, and delivery schedule
+- In Amazon Pinpoint, you create message templates, delivery schedules, highly-targeted segments, and full campaigns
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1629694854421942272)
