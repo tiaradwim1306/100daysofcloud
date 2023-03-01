@@ -76,8 +76,8 @@ the goal is for me to be competent in cloud computing and be better in the futur
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
+- [ ] ☁️ 41 > [6 Pillar Well Architected Framework](Journey/041/Readme.md)
+- [ ] ☁️ 42 > [Meet 5 | EC2 ](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [](Journey/045/Readme.md)
