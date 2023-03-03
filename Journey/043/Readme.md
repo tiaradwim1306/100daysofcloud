@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# AWS Well-Architected tool,Right Sizing,Marketplace and AWS Training : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
+### AWS Well-Architected tool 
+Free tool to review your architectures against the 6 pillars Well-Architected Framework and adopt architectural best practices
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+tools | klik this [link](https://console.aws.amazon.com/wellarchitected)
 
-## Try yourself
+### AWS Right Sizing
+- EC2 has many instance types, but choosing the most powerful instance type isn’t the best choice, because the cloud is elastic
+- Right sizing is the process of matching instance types and sizes to your workload performance and capacity requirements at the lowest possible cost
+- Scaling up is easy so always start small
+- It’s also the process of looking at deployed instances and identifying opportunities to eliminate or downsize without compromising capacity or other requirements, which results in lower costs
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### AWS Marketplace
+Digital catalog with thousands of software listings from independent software vendors (3rd party).If you buy through the AWS Marketplace it goes into your AWS bill and you can sell your own solutions on the AWS Marketplace
 
-### Step 1 — Summary of Step
+Example :
+- Custom AMI (custom OS, firewalls, technical solutions…)
+- CloudFormation templates
+- Software as a Service
+- Containers
 
-![Screenshot](https://via.placeholder.com/500x300)
+### AWS Training
+AWS Academy helps universities teach AWS and your favorite online teacher.Teaching you all about AWS Certifications and more!
 
-### Step 1 — Summary of Step
+- AWS Digital (online) and Classroom Training (in-person or virtual)
+- AWS Private Training (for your organization)
+- Training and Certification for the U.S Government
+- Training and Certification for the Enterprise
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1631454025941155841)
