@@ -72,12 +72,12 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 37 > [AWS Backup,DRS,AWS DataSync,MGN](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [FIS, AWS Step Functions, Ground Station, Pinpoint](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [Well Architected Framework & AWS Cloud Best Practices](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [meet 4 | IAM ](Journey/040/Readme.md)
+- [ ] ☁️ 40 > [meet 4 | IAM hands on](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
 - [ ] ☁️ 41 > [6 Pillar Well Architected Framework](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [Meet 5 | EC2 ](Journey/042/Readme.md)
+- [ ] ☁️ 42 > [Meet 5 | EC2 hands on](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [AWS Well-Architected tool,Right Sizing,Marketplace,AWS Training](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [APN, AWS IQ, Knowledge Center, AMS](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [](Journey/045/Readme.md)
