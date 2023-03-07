@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# MFA hands on 
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Introduction 
+security is very important for root, because administrators have access to change configurations and even delete resources in your AWS account, for this you need more secure security like MFA
 
 ## Cloud Research
+- click profile and select security credential
+![image](https://user-images.githubusercontent.com/120786669/223347221-0f8f332d-029a-4d4d-a6fa-8d12f18bba27.png)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- click assign MFA
+![image](https://user-images.githubusercontent.com/120786669/223347343-a5c820ec-3ca0-4e2c-8d60-7bb571793a93.png)
 
-## Try yourself
+- before that download authy first [link](https://play.google.com/store/apps/details?id=com.authy.authy)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- give name for your device and select your MFA device,next
+![image](https://user-images.githubusercontent.com/120786669/223347382-40e4c4e2-61e1-4cd3-8252-812902823ded.png)
 
-### Step 1 — Summary of Step
+- scan the code QR on AWS with authy on your mobile,then the code on authy will alternate enter the code in the MFA Code.click add MFA
+![image](https://user-images.githubusercontent.com/120786669/223349330-dbe6ead5-599d-4c5a-9a85-38c7fd70defe.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+-  we have successfully assigned MFA to our AWS account
+![image](https://user-images.githubusercontent.com/120786669/223350258-980b8d0f-8703-43c1-a904-fd1ba202f095.png)
 
-### Step 1 — Summary of Step
+- for verification, try sign out then try log in again
+![image](https://user-images.githubusercontent.com/120786669/223350639-c22248a8-c915-40cb-afa4-80fb69926621.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+-  Enter the code on your Authy in the MFA code
+![image](https://user-images.githubusercontent.com/120786669/223350707-65e3dda2-cd2f-4c1e-8004-9cfa8ff9d344.png)
 
-### Step 3 — Summary of Step
+- then we will successfully login
+![image](https://user-images.githubusercontent.com/120786669/223351247-61e64afb-f755-4616-a242-770d8f5a3a33.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
+### yep we did it. 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1633005130504368128
+)
