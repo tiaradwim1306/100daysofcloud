@@ -84,7 +84,7 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 46 > [Meet 6 | EBS & AMI hands on](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [ Reviewing my Journey](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [sample question](Journey/048/Readme.md)
-- [ ] ☁️ 49 > [ Reviewing my Journey](Journey/049/Readme.md)
+- [ ] ☁️ 49 > [ Reviewing & practicing exam](Journey/049/Readme.md)
 - [ ] ☁️ 50 > [](Journey/050/Readme.md)
 
 ## Winding through the canyons
