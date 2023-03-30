@@ -90,7 +90,7 @@ the goal is for me to be competent in cloud computing and be better in the futur
 ## Winding through the canyons
 
 - [ ] ☁️ 51 > [meet 8 | static website with S3](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [Meet 8 | VPC hands on](Journey/052/Readme.md)
+- [ ] ☁️ 52 > [Meet 9 | VPC hands on](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
