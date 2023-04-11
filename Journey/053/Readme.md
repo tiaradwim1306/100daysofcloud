@@ -1,52 +1,64 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+
+# launch web server with wordpress
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+On this journey, we will learn how to launch a web server with WordPress. The configuration is:
+- launch instances
+- remote instances
+- install php
+- install mariadb and create database
+- install wordpress
+- virtualhost
+- install and create a wordpress account
 
 ## Cloud Research
+### click launch instances
+- ![image](https://user-images.githubusercontent.com/120786669/231066287-b79ce3e0-7fc0-4dfb-9c10-801e2733c7da.png)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- give it name 
+![image](https://user-images.githubusercontent.com/120786669/231066727-c2d31b95-19da-4a15-8e1b-24bbf20b9fcb.png)
 
-## Try yourself
+- choose OS u need and select type for OS
+![image](https://user-images.githubusercontent.com/120786669/231066823-aaf98aeb-9829-43ed-af87-8c74a3453685.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- click create key pair, give it name and choose type and the format
+![image](https://user-images.githubusercontent.com/120786669/231067055-a267dca3-6a13-4cbd-99b3-31616bb24e08.png)
 
-### Step 1 — Summary of Step
+- choose keypair that was made earlier
+![image](https://user-images.githubusercontent.com/120786669/231067177-8acdcd62-7518-4e63-a1c3-3bffb64a90fc.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- in network setting section select vpc,subnet u need
+- create a security group with ssh and http privileges
+![image](https://user-images.githubusercontent.com/120786669/231068684-b0ea0ef6-d861-4e12-b47e-f7d6b95f5aa1.png)
+![image](https://user-images.githubusercontent.com/120786669/231068711-379a1102-3afb-45ce-8cc5-44774de00419.png)
 
-### Step 1 — Summary of Step
+- in userdata add a script to install apache2
+![image](https://user-images.githubusercontent.com/120786669/231068915-6a82ef70-7d9f-44e9-b9be-ccc198b784a5.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- review summary and click launch instances
+![image](https://user-images.githubusercontent.com/120786669/231069138-12121089-d77f-4cf5-8d43-9402971f9b7f.png)
 
-### Step 3 — Summary of Step
+- try to access the webserver
+![image](https://user-images.githubusercontent.com/120786669/231069265-83827cc8-5e06-4938-aa8c-a272e6fe828f.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### remote instances
+- remote instances
+![image](https://user-images.githubusercontent.com/120786669/231069374-8897f9ba-8fa6-4fe7-b4ae-7e9fdea6b6c3.png)
 
-## ☁️ Cloud Outcome
+- switch to user root
+![image](https://user-images.githubusercontent.com/120786669/231069456-6d957b75-7a16-4047-a660-760fe9dcb241.png)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### install php 
+![image](https://user-images.githubusercontent.com/120786669/231069470-f0487b69-77a9-4fd5-b482-1e1f9f090d0a.png)
 
-## Next Steps
+![Uploading image.png…]()
 
-✍️ Describe what you think you think you want to do next.
+
+### 
+
 
 ## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
 
 [link](link)
