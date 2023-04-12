@@ -1,52 +1,69 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# linux and aws combination | EC2 section
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+In this journey, we will combine the configuration between Linux Ubuntu and AWS. We will create several websites
+- simple web : port 82 ( display : "welcome to tiara's web server" )
+- cloned web : port 8088 (display : game 2048)
+- cloned web : default port and accessed by domain (display : game star-battle)
 
 ## Cloud Research
+### launch instances 
+- click launch instances
+![image](https://user-images.githubusercontent.com/120786669/231325232-919b757c-3461-4bd7-8522-4ae74bcd21ab.png)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- give it name
+![image](https://user-images.githubusercontent.com/120786669/231325261-60283206-5020-4234-837e-83df305c8c34.png)
 
-## Try yourself
+- choose ur OS and the type 
+![image](https://user-images.githubusercontent.com/120786669/231325434-9cd88aa0-5998-420c-9c6c-8331943adb20.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- use the keypair that we created in the previous lab
+![image](https://user-images.githubusercontent.com/120786669/231325455-41fefc60-e403-44f8-bff2-c32a70a5d807.png)
 
-### Step 1 — Summary of Step
+- choose vpc,subnet, u need.then use sg that we created in the previous lab
+![image](https://user-images.githubusercontent.com/120786669/231325543-ab3fc544-d9e3-4873-87a6-55992018e8f3.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- review summary and click launch instance
+![image](https://user-images.githubusercontent.com/120786669/231325684-02b82c15-cae8-4100-b076-ff78b313346f.png)
 
-### Step 1 — Summary of Step
+### remote instance 
+- open cmd,move where the keypair is stored
+![image](https://user-images.githubusercontent.com/120786669/231326053-b3d0c6da-6617-42a4-84e4-066d4e6dd343.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- switch to the root user
+![image](https://user-images.githubusercontent.com/120786669/231326115-16a52bc2-32b4-4842-b21c-dc8a7e7e2b01.png)
 
-### Step 3 — Summary of Step
+## first website : simple web (port 82)
+- install apache2
+![image](https://user-images.githubusercontent.com/120786669/231326345-8ab689f0-1b98-4654-b2eb-f14e8b61bc37.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Enter the script in index.html with the echo 
+![image](https://user-images.githubusercontent.com/120786669/231326471-9ba21477-90cf-4ba6-b857-5b98e2745bf7.png)
 
-## ☁️ Cloud Outcome
+- access web server,and make sure it is accessible.
+![image](https://user-images.githubusercontent.com/120786669/231326527-ae1ee849-617d-4134-87dd-271ec4453e8f.png)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- then try to access with port 82, and the web server canot be accessed with port 82
+![image](https://user-images.githubusercontent.com/120786669/231327079-239d92bf-d0c1-45cf-9879-721fe56f23db.png)
 
-## Next Steps
+- move to /etc/apache2/sites-enabled
+![image](https://user-images.githubusercontent.com/120786669/231327164-703279d0-80b2-454d-bb01-13604b6bf06c.png)
 
-✍️ Describe what you think you think you want to do next.
+- cp 000-default.conf to port82.conf,then edit file port82.conf with nano
+![image](https://user-images.githubusercontent.com/120786669/231329130-5f21700f-dede-4613-b77f-dd0b9a11abcf.png)
+
+- edit port and add script listen 
+![image](https://user-images.githubusercontent.com/120786669/231329319-ab78563a-ce96-4572-9306-7686f3e181ce.png)
+
+- lalu restart apache2
+![image](https://user-images.githubusercontent.com/120786669/231329398-d5a6780e-2a72-4a46-b73f-1b9866d825bd.png)
+
+- we need to configure the security group, for that move to aws EC2 then to the security group tab
+
+- 
+
+
 
 ## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
 
 [link](link)
