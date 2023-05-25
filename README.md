@@ -96,7 +96,7 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 55 > [Meet 10 | easy stack part 1](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [Meet 11 | easy stack part 2](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [Storage - Easy stack](Journey/057/Readme.md)
-- [ ] ☁️ 58 > [meet 11 | load balancer - Easy stack](Journey/058/Readme.md)
+- [ ] ☁️ 58 > [meet 12 | load balancer - Easy stack](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
 
