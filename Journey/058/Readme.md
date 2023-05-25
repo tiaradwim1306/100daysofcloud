@@ -1,4 +1,4 @@
-# meet 11 | load balancer (mentor : Dea Tristianti)
+# meet 12 | load balancer (mentor : Dea Tristianti)
 
 ## Introduction
 on this journey we will learn create load balancing on easy stack, some of the things we will do this time are :
