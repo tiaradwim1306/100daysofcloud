@@ -9,4 +9,4 @@ I did and put the files in this link [drive](https://docs.google.com/document/d/
 
 ## Social Proof
 
-[Twitter](https://twitter.com/tiaradwim1306/status/1681127696724791297)
+[Twitter](https://twitter.com/tiaradwim1306/status/1681132537568165889)
