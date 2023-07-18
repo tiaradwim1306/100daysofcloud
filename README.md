@@ -97,14 +97,14 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 56 > [Meet 11 | easy stack part 2](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [Storage - Easy stack](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [meet 12 | load balancer - Easy stack](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [](Journey/059/Readme.md)
-- [ ] ☁️ 60 > [](Journey/060/Readme.md)
+- [ ] ☁️ 59 > [EFS Hands on](Journey/059/Readme.md)
+- [ ] ☁️ 60 > [Module 3 Guided Lab - Hosting a Static Website](Journey/060/Readme.md)
 
 ## Stumbling through the caves
 
-- [ ] ☁️ 61 > [](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [](Journey/062/Readme.md)
-- [ ] ☁️ 63 > [](Journey/063/Readme.md)
+- [ ] ☁️ 61 > [Module 3 Challenge Lab - Creating a Static Website for the Cafe](Journey/061/Readme.md)
+- [ ] ☁️ 62 > [Module 4 Guided Lab - Introducing Amazon EFS](Journey/062/Readme.md)
+- [ ] ☁️ 63 > [Module 4 Challenge Lab - Creating a Dynamic Website for the Cafe](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [](Journey/066/Readme.md)
