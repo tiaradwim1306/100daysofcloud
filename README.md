@@ -107,10 +107,10 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 63 > [Module 4 Challenge Lab - Creating a Dynamic Website for the Cafe](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [Module 5 Guided Lab - Creating an Amazon RDS Database](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [Module 5 Challenge Lab - Migrating a Database to Amazon RDS ](Journey/065/Readme.md)
-- [ ] ☁️ 66 > [](Journey/066/Readme.md)
-- [ ] ☁️ 67 > [](Journey/067/Readme.md)
-- [ ] ☁️ 68 > [](Journey/068/Readme.md)
-- [ ] ☁️ 69 > [](Journey/069/Readme.md)
+- [ ] ☁️ 66 > [Module 6 Guided Lab - Creating a Virtual Private Cloud](Journey/066/Readme.md)
+- [ ] ☁️ 67 > [Module 6 Challenge Lab - Creating a VPC Networking Environment for the Cafe](Journey/067/Readme.md)
+- [ ] ☁️ 68 > [Module 7 Guided Lab - Creating a VPC Peering Connection](Journey/068/Readme.md)
+- [ ] ☁️ 69 > [Module 8 Challenge Lab - Controlling AWS Account Access by Using IAM](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
 
 ## Resting at the Lagoon
