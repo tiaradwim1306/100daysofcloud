@@ -8,7 +8,7 @@ the function is to automate the creation, maintain, validate and test EC2 AMIs o
 ### EC2 Instance Store
 EBS has limited performance, if you need higher performance hardware disk use EC2 Instance Store with better I/O performance
 
-### ## EFS (Elastic File System)
+### EFS (Elastic File System)
 NFS can be installed on around 100s of EC2 and works with EC2 Linux instances in multiple Availability Zones.
 Highly available, scalable, expensive (3x gp2), pay per use, no capacity planning
 
@@ -31,7 +31,7 @@ Highly available, scalable, expensive (3x gp2), pay per use, no capacity plannin
 - Fully managed service
 - Types : FSx for Lustre, FSx for Windows File Server, FSx for NetApp ONTAP
 
-### ## EC2 Instance Storage - Summary
+### EC2 Instance Storage - Summary
 - EBS Volumes :
 	- network drives attached to one EC2 instance at a time 
 	- Mapped to an Availability Zones 
