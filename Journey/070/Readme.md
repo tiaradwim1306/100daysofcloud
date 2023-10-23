@@ -1,7 +1,7 @@
 # Module 9 Guided Lab - Creating a Highly Available Environment | AWS Academy Cloud Architecting 
 
 ## Cloud Research
-in this journey we learn IAM,how to create group and add user to grub, also learn policy and the verify
+in this journey we learn Creating a Highly Available Environment with ELB and ASG
 
 ![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/f2d349d5-7ede-4b04-9a00-d798ae77f498)
 
