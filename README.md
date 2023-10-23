@@ -111,14 +111,16 @@ the goal is for me to be competent in cloud computing and be better in the futur
 - [ ] ☁️ 67 > [Module 6 Challenge Lab - Creating a VPC Networking Environment for the Cafe](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [Module 7 Guided Lab - Creating a VPC Peering Connection](Journey/068/Readme.md)
 - [ ] ☁️ 69 > [Module 8 Challenge Lab - Controlling AWS Account Access by Using IAM](Journey/069/Readme.md)
-- [ ] ☁️ 70 > [](Journey/070/Readme.md)
+- [ ] ☁️ 70 > [
+Module 9 Guided Lab - Creating a Highly Available Environment](Journey/070/Readme.md)
 
 ## Resting at the Lagoon
 
-- [ ] ☁️ 71 > [](Journey/071/Readme.md)
-- [ ] ☁️ 72 > [](Journey/072/Readme.md)
-- [ ] ☁️ 73 > [](Journey/073/Readme.md)
-- [ ] ☁️ 74 > [](Journey/074/Readme.md)
+- [ ] ☁️ 71 > [Module 9 Challenge Lab - Creating a Scalable and Highly Available Environment for the Cafe](Journey/071/Readme.md)
+- [ ] ☁️ 72 > [Module 10 Guided Lab - Automating Infrastructure Deployment with AWS CloudFormation](Journey/072/Readme.md)
+- [ ] ☁️ 73 > [Module 10 Challenge Lab - Automating Infrastructure Deployment
+100 pts](Journey/073/Readme.md)
+- [ ] ☁️ 74 > [Module 11 Guided Lab - Streaming Dynamic Content using Amazon CloudFront](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [](Journey/075/Readme.md)
 - [ ] ☁️ 76 > [](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [](Journey/077/Readme.md)
