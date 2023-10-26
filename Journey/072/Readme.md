@@ -1,7 +1,7 @@
 # Module 10 Guided Lab - Automating Infrastructure Deployment with AWS CloudFormation | AWS Academy Cloud Architecting 
 
 ## Cloud Research
-in this journey we Creating a Scalable and Highly Available Environment dengan auto scaling dan load balancer
+in this journey we deploy the website automatically from the template that has been provided
 
 
 ![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/0b4b21c4-a7c0-4c2d-b329-41aca29bcfe9)
