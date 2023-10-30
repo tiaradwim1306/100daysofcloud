@@ -121,11 +121,13 @@ Module 9 Guided Lab - Creating a Highly Available Environment](Journey/070/Readm
 - [ ] ☁️ 73 > [Module 10 Challenge Lab - Automating Infrastructure Deployment
 100 pts](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [Module 11 Guided Lab - Streaming Dynamic Content using Amazon CloudFront](Journey/074/Readme.md)
-- [ ] ☁️ 75 > [](Journey/075/Readme.md)
-- [ ] ☁️ 76 > [](Journey/076/Readme.md)
-- [ ] ☁️ 77 > [](Journey/077/Readme.md)
-- [ ] ☁️ 78 > [](Journey/078/Readme.md)
-- [ ] ☁️ 79 > [](Journey/079/Readme.md)
+- [ ] ☁️ 75 > [Module 13 Guided Lab - Implementing a Serverless Architecture with AWS Lambda
+](Journey/075/Readme.md)
+- [ ] ☁️ 76 > [Module 13 Challenge Lab - Implementing a Serverless Architecture for the Cafe](Journey/076/Readme.md)
+- [ ] ☁️ 77 > [Module 14 Guided Lab - Hybrid Storage and Data Migration with AWS Storage Gateway File Gateway](Journey/077/Readme.md)
+- [ ] ☁️ 78 > [
+Capstone Project - Final Project on AWS Academy Cloud Architecting](Journey/078/Readme.md)
+- [ ] ☁️ 79 > [Final Project - Mastering AWS Solution Architect Aguna Course](Journey/079/Readme.md)
 - [ ] ☁️ 80 > [](Journey/080/Readme.md)
 
 ## Up into the mountains
