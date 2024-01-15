@@ -1,52 +1,48 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# CloudFront & Global Accelerator: AWS Certified Solutions Architect Associate SAA-C03 Course on Udemy by Stepahane Mareek
 
 ## Cloud Research
+### Amazon CloudFront 
+adalah Content Delivery Network (CDN) yang improves read performance dengan menyimpan content is cached at the edge.Improves users experience and has 216 Point of Presence globally.
+> DDoS protection cause integration with Shield, AWS Web Application Firewall.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- S3 : Untuk mendistribusikan file dan menyimpannya di edge, security with CloudFront Origin Access Control (OAC), CloudFront dapat digunakan sebagai ingress (untuk mengunggah file ke S3)
+- Custom Origin (HTTP) : ALB,EC2 instance, S3 website, any HTTP backend you want.
 
-## Try yourself
+ketika client melakukan request maka edge akan mengecek apakah cache memilikinya jika tidak maka edge akan mengambil ke server dan menyimpannya kedalam cache.
+nanti jika client melakukan request yang sama edge tidak perlu keserver lagi dan bisa mengambilnya cache.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/fd40acb8-ed7b-44ab-903e-49d79c8425e9)
 
-### Step 1 — Summary of Step
+#### CloudFront Geo Restriction
+- allowlist : Izinkan pengguna Anda mengakses konten Anda hanya jika mereka berada di salah satu negara dalam daftar negara yang disetujui.
+- blocklist : Mencegah pengguna mengakses konten Anda jika mereka berada di salah satu negara dalam daftar negara yang dilarang.
 
-![Screenshot](https://via.placeholder.com/500x300)
+The “country” ditentukan menggunakan database Geo-IP pihak ketiga, Use case: Copyright Laws to control access to content. CloudFront Edge locations are all around the world, The cost of data out per edge location varies.
 
-### Step 1 — Summary of Step
+#### Cache Invalidations
+jika memperbarui backend origin CloudFront tidak mengetahuinya dan hanya akan mendapatkan konten yang disegarkan setelah TTL kedaluwarsa untuk itu kita harus memaksa penyegaran cache seluruh atau sebagian dengan melakukan CloudFront Invalidation.You can invalidate all files (*) or a special path (/images/*)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Unicast IP: one server holds one IP address 
+- Anycast IP: all servers hold the same IP address and the client is routed to the nearest one
 
-### Step 3 — Summary of Step
+#### AWS Global Accelerator 
+work with elastic IP, ec2, ALB, NLB, public or private
+- Kinerja yang konsisten : perutean yang cerdas dan failover regional yg cepat, No issue with client cache (because the IP doesn’t change), Internal AWS network
+- Health check : help make your application global (failover less than 1 minute for unhealthy), Great for disaster recovery
+- Security : only 2 external IP need to be whitelisted,DDoS protection with AWS Shield
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+#### AWS Global Accelerator vs CloudFront
+keduanya sama untuk AWS global network dan edge locations around the world dan sama-sama terintegrasi dengan AWS shield for DDoS  protection,
+- CloudFront
+  - Meningkatkan kinerja untuk konten yang dapat di-cache (seperti gambar dan video)
+  - dynamic content (seperti akselerasi API dan pengiriman situs dinamis)
+  - Konten disajikan di edge
+- Global Accelerator
+  - Meningkatkan kinerja untuk berbagai aplikasi melalui TCP atau UDP
+  - Memproxy paket di edge ke aplikasi yang berjalan di satu atau lebih Wilayah AWS.
+  - Cocok untuk kasus penggunaan non-HTTP, seperti game (UDP), IoT (MQTT), atau Voice over IP
+  - Baik untuk kasus penggunaan HTTP yang memerlukan alamat IP statis
+  - Cocok untuk kasus penggunaan HTTP yang memerlukan failover regional yang cepat dan deterministik
 
 ## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/tiaradwim1306/status/1746790840083812449)
