@@ -1,5 +1,3 @@
-
-
 # EBS & AMI : Course on Udemmy by Stepahane Mareek
 
 ## Cloud Research
