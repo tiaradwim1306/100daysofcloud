@@ -68,7 +68,8 @@ common rules : EC2 instance roles, lambda function roles, roles for cloudformati
 - audit permissions dengan IAM credential report & IAM access advisor
 - jangan pernah share IAM & access keys secara sembaranagan
 
-
+## Social Proof
+[Twitter](https://twitter.com/tiaradwim1306/status/1746744173892628729)
 
 
 
