@@ -145,13 +145,13 @@ Capstone Project - Final Project on AWS Academy Cloud Architecting](Journey/078/
 
 ## Into the sky to touch the cloud!
 
-- [ ] ☁️ 91 > [](Journey/091/Readme.md)
-- [ ] ☁️ 92 > [](Journey/092/Readme.md)
-- [ ] ☁️ 93 > [](Journey/093/Readme.md)
-- [ ] ☁️ 94 > [](Journey/094/Readme.md)
-- [ ] ☁️ 95 > [](Journey/095/Readme.md)
-- [ ] ☁️ 96 > [](Journey/096/Readme.md)
-- [ ] ☁️ 97 > [](Journey/097/Readme.md)
-- [ ] ☁️ 98 > [](Journey/098/Readme.md)
-- [ ] ☁️ 99 > [](Journey/099/Readme.md)
-- [ ] ☁️ 100 > [](Journey/100/Readme.md)
+- [x] ☁️ 91 > [Database v2 : SAA Udemy](Journey/091/Readme.md)
+- [x] ☁️ 92 > [Data & Analytics : SAA Udemy](Journey/092/Readme.md)
+- [ ] ☁️ 93 > [Machine Learning : SAA Udemy](Journey/093/Readme.md)
+- [ ] ☁️ 94 > [AWS Monitoring & Audit : SAA Udemy](Journey/094/Readme.md)
+- [ ] ☁️ 95 > [IAM : SAA Udemy](Journey/095/Readme.md)
+- [ ] ☁️ 96 > [AWS Security & Encryption : SAA Udemy](Journey/096/Readme.md)
+- [ ] ☁️ 97 > [Networking - VPC : SAA Udemy](Journey/097/Readme.md)
+- [ ] ☁️ 98 > [Disaster Recovery & Migrations : SAA Udemy](Journey/098/Readme.md)
+- [ ] ☁️ 99 > [More Solutions Architectures & WhitePapers and Architectures : SAA Udemy](Journey/099/Readme.md)
+- [ ] ☁️ 100 > [Other Services : SAA Udemy](Journey/100/Readme.md)
