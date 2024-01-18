@@ -147,7 +147,7 @@ Capstone Project - Final Project on AWS Academy Cloud Architecting](Journey/078/
 
 - [x] ☁️ 91 > [Database v2 : SAA Udemy](Journey/091/Readme.md)
 - [x] ☁️ 92 > [Data & Analytics : SAA Udemy](Journey/092/Readme.md)
-- [ ] ☁️ 93 > [Machine Learning : SAA Udemy](Journey/093/Readme.md)
+- [x] ☁️ 93 > [Machine Learning : SAA Udemy](Journey/093/Readme.md)
 - [ ] ☁️ 94 > [AWS Monitoring & Audit : SAA Udemy](Journey/094/Readme.md)
 - [ ] ☁️ 95 > [IAM : SAA Udemy](Journey/095/Readme.md)
 - [ ] ☁️ 96 > [AWS Security & Encryption : SAA Udemy](Journey/096/Readme.md)
