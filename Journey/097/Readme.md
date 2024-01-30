@@ -267,6 +267,13 @@ protect seluruh VPC, From Layer 3 to Layer 7 protection and Arah mana pun, Anda 
 
 secara internal, the AWS Network Firewall uses the AWS Gateway Load Balancer dan rules bisa bersifat terpusat.
 
+#### Fine Grained Controls
+- Support 1000s of rules : IP & port, Protocol, Stateful domain list rule groups: only allow outbound traffic to *.mycorp.com or third-party software repo, Pencocokan pola umum menggunakan regex.
+- Traffic filtering: Allow, drop, or alert for the traffic that matches the rules
+- Inspeksi aliran aktif untuk melindungi terhadap ancaman jaringan dengan kemampuan pencegahan intrusi (seperti Gateway Load Balancer, namun semuanya dikelola oleh AWS)
+- Send logs of rule matches to Amazon S3, CloudWatch Logs, Kinesis Data Firehose
+
+
 ## SUMMARY
 
 ![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/99ffa717-5fab-4eb6-a615-6038975c56c6)
