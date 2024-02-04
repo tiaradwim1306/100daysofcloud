@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# More Solutions Architecture And White Papers & Architectures : AWS Certified Solutions Architect Associate SAA-C03 Course on Udemy by Stepahane Mareek
 
 ## Cloud Research
+## More Solutions Architecture
+### Event Processing in AWS
+#### Lambda, SNS & SQS
+Banyak sekali event processing yang bisa dipilih, bisa menggunakan SQS dan SNS dengan skenario yang berbeda seperti dibawah ini
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/fe62c2f2-d2a7-4990-a4ae-4a299805b533)
 
-## Try yourself
+#### Fan Out Pattern: deliver to multiple SQS
+bagaimana jika kita ingin mengirim message ke multiple SQS, dari aplikasi langsung ke SQS secara bergantian bisa namun nanti akan terjadi crash sehingga kita bisa menggunakan SNS sebagai penghubung ditengahnya yang fungsinya untuk menjembatani message dari aplikasi ke SQS. System ini disebut Fan Out Pattern.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/2c2178a6-ea1f-4cc7-9865-16cdf61a12f7)
 
-### Step 1 — Summary of Step
+#### S3 Event Notifications
+notification bisa berisi S3:ObjectCreated, S3:ObjectRemoved, S3:ObjectRestore, S3:Replication, etc. BIsa menggunakan object name filtering seperti (*.jpg). Kita bisa membuat banyak S3 event yang kita inginkan, bisa menggunakan SNS,SQS, atapun lambda. S3 event notifications biasanya mengirim event dalam hitungan detik but sometimes take a minute or longer.
+> Use case :  generate thumbnails of images uploaded to S3
 
-![Screenshot](https://via.placeholder.com/500x300)
+S3 Event Notifications with Amazon EventBridge
 
-### Step 1 — Summary of Step
+![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/4ef12abf-3461-4505-a147-d036637d001f)
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Advanced filtering options with JSON rules (metadata, object size, name...), 
+- Multiple Destinations – ex Step Functions, Kinesis Streams / Firehose…
+- EventBridge Capabilities – Archive, Replay Events, Reliable delivery
 
-### Step 3 — Summary of Step
+![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/64b6fc35-e4ef-4ac9-b278-a1be575326a1)
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://github.com/tiaradwim1306/100daysofcloud/assets/120786669/416f4cba-547e-4e1a-8ebd-0d696305e413)
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
